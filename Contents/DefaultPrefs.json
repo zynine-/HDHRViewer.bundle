@@ -1,0 +1,67 @@
+[
+	{
+		"id": "hdhomerun_ip",
+		"type": "text",
+		"label": "HDHomeRun IP",
+		"default": "192.168.1.111"
+	},
+	{
+		"id": "hdhomerun_tuner",
+		"type": "enum",
+		"label": "Tuner Preference",
+		"values": ["auto","tuner0","tuner1","tuner2"],
+		"default": "auto"
+	},
+	{
+		"id": "custom_lineup_enable",
+		"type": "bool",
+		"label": "Custom Lineup",
+		"default": "false"
+	},
+	{
+		"id": "custom_lineup",
+		"type": "text",
+		"label": "Custom Lineup Location",
+		"default": "lineup.xml"
+	},
+	{
+		"id": "xmltv_enable",
+		"type": "bool",
+		"label": "Enable XMLTV",
+		"default": "false"
+	},
+	{
+		"id": "xmltv",
+		"type": "text",
+		"label": "XMLTV Location",
+		"default": "xmltv.xml"
+	},
+	{
+		"id": "xmltv_maxlist",
+		"type": "enum",
+		"label": "XMLTV Max Listing per channel",
+		"values": ["1","2","3","4","5"],
+		"default": "3"
+	},
+	{
+		"id": "xmltv_match",
+		"type": "enum",
+		"label": "XMLTV Match by channel",
+		"values": ["number","name"],
+		"default": "number"
+	},
+	{
+		"id": "channellogo",
+		"type": "enum",
+		"label": "Channel Logo match by channel",
+		"values": ["name","number"],
+		"default": "name"
+	},
+	{
+		"id": "transcode",
+		"type": "enum",
+		"label": "Pre-Transcode (HDTC-2US only)",
+		"values": ["none","auto","heavy","mobile","internet540","internet480","internet360","internet240"],
+		"default": "none"
+	}
+]
